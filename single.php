@@ -1,0 +1,1 @@
+<h1>i am single.php file</h1>
