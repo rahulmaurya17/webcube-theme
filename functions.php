@@ -17,7 +17,7 @@ function add_style_inWebcube(){
     wp_enqueue_script("script-3",get_template_directory_uri() . '/js/jquery.prettyPhoto.js', array(),false,true);
     wp_enqueue_script("script-4",get_template_directory_uri() . '/js/jquery.nicescroll.js', array(),false,true);
     wp_enqueue_script("script-5",get_template_directory_uri() . '/js/jquery.isotope.js', array(),false,true);
-    wp_enqueue_script("script-6",get_template_directory_uri() . '/js/wow.js', array(),false,false);
+    wp_enqueue_script("script-6",get_template_directory_uri() . '/js/wow.js', array(),false,true);
     wp_enqueue_script("script-7",get_template_directory_uri() . '/js/jquery.countTo.js', array(),false,true);
     wp_enqueue_script("script-8",get_template_directory_uri() . '/js/jquery.inview.min.js', array(),false,true);
     wp_enqueue_script("script-9",get_template_directory_uri() . '/js/owl.carousel.js', array(),false,true);
@@ -27,5 +27,5 @@ function add_style_inWebcube(){
 }
 add_action('wp_enqueue_scripts','add_style_inWebcube');
 
-add_theme_support('menus');
+
 ?>
